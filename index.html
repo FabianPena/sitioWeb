@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Ricomida</title>
+    <link rel="stylesheet" href="assets/css/fabo-style.css">
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        .carousel-indicators li {
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 100%;
+        }
+    </style>
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <section
+            class="my-5 d-none d-sm-none d-md-block d-lg-block d-xl-block mx-4 border-dark border-bottom pb-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ul class="carousel-indicators ">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                </ul>
+                <div class="carousel-inner text-dark">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-1.png" class="img-fluid" alt="slider-1">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-2.png" class="img-fluid" alt="slider-2">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-3.png" class="img-fluid" alt="slider-3">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-4.png" class="img-fluid" alt="slider-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-dark">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-5.png" class="img-fluid" alt="slider-5">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-6.png" class="img-fluid" alt="slider-6">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-7.png" class="img-fluid" alt="slider-7">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                <img src="assets/img/slider-8.png" class="img-fluid" alt="slider-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
