@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Cabin", sans-serif;
+}
+
+:root {
+    --main-bg-color: #000000;
+}
+
+#barra-nav {
+    background-color: var(--main-bg-color);
+}
+
+#h1 {
+    font-family: "lobster";
+    font-size: 37pt;
+}
+
+#navbarSupportedContent {
+    font-size: 16pt;
+}
+
+#img-pizza-ppal {
+    height: 384pt;
+    width: 482pt;
+}
+
+.img-ppal h2 {
+    font-size: 40pt;
+}
+
+.text-ppal {
+    border-bottom: 3pt solid black;
+}
